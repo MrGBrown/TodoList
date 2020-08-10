@@ -1,0 +1,5 @@
+<div class="singletodo">
+    <button class="complete-todo" *ngIf="!todoItem.completed" (click)="todoItem.completed = true">Complete</button>
+    <p>{{todoItem.task}}</p>
+    <button class="remove-todo" (click)="removeItem()">X</button>
+</div>

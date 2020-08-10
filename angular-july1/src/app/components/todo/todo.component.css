@@ -1,0 +1,48 @@
+.mainbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #eee;
+    Font-family: Open Sans;
+    Font-weight: 300;
+    margin: 20px;
+    padding: 20px;
+    width: 1000px;
+    Box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+}
+
+.todobox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1000px;
+    margin: 5px auto;
+}
+
+.add-todo {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.filter-todo {
+    width: 100%;
+    margin-left: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    .mainbox {
+      width: 98%;
+    }
+
+    .todobox {
+        width: 98%;
+    }
+  }

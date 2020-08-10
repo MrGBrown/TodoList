@@ -1,0 +1,9 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(to right, #f857a6, #ff5858);
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    align-items: center;
+}

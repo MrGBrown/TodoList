@@ -1,0 +1,51 @@
+.singletodo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1000px;
+    border: #ff69b4 solid 3px;
+    color: #ff69b4;
+    background-color: #eee;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+.singletodo:hover {
+    background-color: #ff69b4;
+    color:#eee;
+}
+
+button:hover {
+    background-color: #ff1188;
+    color:#eee;
+    cursor: pointer;
+}
+
+p {
+    display: flex;
+    align-items: center;
+    padding: 5px 10px 5px 10px;
+}
+
+button {
+    width: 10%;
+    margin: 10px;
+    background-color: #ff1493;
+    color: white;
+    border-style: none;
+    height: 30px;
+    border-radius: 8px;
+    Font-family: Open Sans;
+}
+
+.remove-todo {
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .singletodo {
+      width: 100%;
+    }
+
+  }

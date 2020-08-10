@@ -1,0 +1,13 @@
+<div class="mainbox">
+
+  <h2>Todo List</h2>
+
+  <input class="filter-todo" placeholder="Filter Todo List" [(ngModel)]="filterInput" (input)="filter()"/>
+  <div class="todobox" *ngFor="let item of filter()" [ngStyle]="{ 'text-decoration': item.completed ? 'line-through' : 'none' }">
+    <app-info (remove)="removeItem($event)" [todoItem]="item"></app-info>
+  </div>
+
+<input class="add-todo" placeholder="Add Todo Item" type="text" [(ngModel)]="value" />
+<button (click)="addItem()">Add</button>
+
+</div>
